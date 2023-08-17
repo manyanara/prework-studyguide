@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
   <body>
@@ -29,13 +30,28 @@
       </section>
 
       <section class="card" id="git- section">
-        <h2>git</h2>
+        <h2>git commands explained:</h2>
         <ul>
           <li>git status: checks status of branch you're working on</li>
           <li>git checkout -b branchname creates a branch and switches you to it</li>
           <li>git add -a will commit all files to the working branch</li>
           <li>git commit -m "description" will commit changes to the repo, -m indicates an added message</li>
+          <li> git clone (copy url) will clone a repo to your device (think ssh key)</li>
+          <li>git remote - v will check hte connection between remote repo and clone</li>
         </ul>
+        <h3>git flow</h3>
+        <ul>
+          <li>check which branch you're on using 'git status' </li>
+          <li> add your edited files to the directory using 'git add-A'</li>
+          <li>commit your changes to the repo on the branch you're on with 'git commit -m "describe edits"'</li>
+          <li>check your branch is up to date using 'git pull origin main'</li>
+          <li> push your edits to the main branch with 'git push origin (branch name)'</li>
+          <li> go to github and open the pull request</li>
+          <li>make sure the base is the main branch and you are comparing the edited branch</li>
+          <li> add descriptions for your edits and create the pull request</li>
+          <li> merge the pull request and you're done!</li>
+        </ul>
+
       </section>
 
       <section class="card" id="javascript-section">
