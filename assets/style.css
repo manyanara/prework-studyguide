@@ -25,7 +25,8 @@ img {
 }
 
 ul {
-    padding-left: -1 px;
+    padding-left: 0px;
+    margin-left: 20px;
     font-size: 20px;
 }
 
